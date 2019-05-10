@@ -62,6 +62,7 @@ Rails.application.configure do
   # config.active_job.queue_name_prefix = "sample_app_#{Rails.env}"
   config.action_mailer.perform_caching = false
   config.action_mailer.delivery_method = :smtp
+  host = 'https://secure-chamber-36248.herokuapp.com'
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default_options = {from: 'no-reply@example.com'}
   config.action_mailer.smtp_settings = {
